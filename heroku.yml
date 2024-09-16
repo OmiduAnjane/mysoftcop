@@ -1,0 +1,10 @@
+setup:
+  config:
+    NPM_CONFIG_PRODUCTION: false
+
+build:
+  docker:
+    web: Dockerfile
+
+run:
+  web: npm run start
